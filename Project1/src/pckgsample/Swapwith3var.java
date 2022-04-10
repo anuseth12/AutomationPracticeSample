@@ -1,14 +1,23 @@
 package pckgsample;
 
+import java.util.Scanner;
+
 public class Swapwith3var {
 	
 	
 	
 	public static void main(String[] args) {
 		
-		int a=10,b=20;
 		int c;
 		
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter value of a");
+		int a=s.nextInt();
+		
+		System.out.println("Enter value of b");
+		int b=s.nextInt();
+		
+				
 		System.out.println("Value of var a before swapping:"+ a);
 		System.out.println("Value of var b before swapping:"+ b);
 		
